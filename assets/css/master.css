@@ -1,0 +1,61 @@
+/* https://hoangsi.com/ */
+
+body {
+    padding: 100px 0px;
+}
+
+.noresize {
+    resize: none;
+}
+
+.vresize {
+    resize: vertical;
+}
+
+.btn_translate {
+    margin-top: 20px;
+}
+
+.trans_in {
+    padding-right: 30px;
+}
+
+.trans_out {
+    margin-top: 5px;
+}
+
+.group_nav {
+    margin-bottom: 5px;
+}
+
+.trans_mean {
+    margin-top: 5px;
+}
+
+.copyright {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background: #f1f1f1;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.empty_trans_in {
+    padding: 5px 10px;
+    position: absolute;
+    right: 16px;
+    top: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+    body {
+        padding: 20px 0px 60px 0px;
+    }
+    .trans_in {
+        margin-bottom: 40px;
+    }
+}
